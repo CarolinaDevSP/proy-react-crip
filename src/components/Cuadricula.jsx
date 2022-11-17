@@ -11,7 +11,7 @@ function Cuadricula() { //al principio se llamaba App
   return (
     <div className='app-container'>
      
-      <h1>1er proyecto CRIPTOMONEDAS </h1>
+      <h1>LISTA DE CRIPTOMONEDAS </h1>
       <div className='cripto-container'>
         { criptos.map(({id, name, priceUsd, symbol, changePercent24Hr}) => (
           <Cripto 
